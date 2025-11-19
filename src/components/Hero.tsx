@@ -16,7 +16,10 @@ export default function Hero() {
           <p className="mb-5">
             We begin within. We build together. We rise as one.
           </p>
-          <button className="btn btn-primary">Join the Inner Circle</button>
+          <div className="flex justify-center flex-row gap-x-2">
+            <button className="btn btn-primary">Join the Inner Circle</button>
+            <button className="btn btn-primary">Explore the Movement</button>
+          </div>
         </div>
       </div>
     </div>
